@@ -85,6 +85,10 @@
                         "version-pattern": "Kerberos V5 Release ([\\d\\.]+) - current release",
                         "url-template": "https://kerberos.org/dist/krb5/$major.$minor/krb5-$version.tar.gz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-krb5-1.22.patch"
                 }
             ]
         },
