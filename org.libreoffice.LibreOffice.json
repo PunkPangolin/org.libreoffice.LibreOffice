@@ -4,7 +4,7 @@
     "runtime-version": "26.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk25"
+        "org.freedesktop.Sdk.Extension.openjdk21"
     ],
     "command": "libreoffice",
     "modules": [
@@ -12,7 +12,7 @@
             "name": "openjdk",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk25/install.sh"
+                "/usr/lib/sdk/openjdk21/install.sh"
             ]
         },
         {
